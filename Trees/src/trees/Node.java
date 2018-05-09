@@ -19,19 +19,12 @@ public class Node {
         this.value = value;
     }
     
-    public String toString()
-    {
+    public String toString() {
         return "Value: " + this.value + "\n";
     }
     
-    public Node clone()
-    {
+    public Node clone() {
         return new Node(this.value);
-    }
-    
-    public static void main(String[] args) 
-    {
-        
     }
     
 }
